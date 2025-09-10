@@ -1,0 +1,26 @@
+body {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 50px;
+}
+
+/* CSS animation: glowing fortune */
+#fortune {
+  font-size: 20px;
+  margin-top: 20px;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from { color: white; }
+  to   { color: gold; }
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
